@@ -6,7 +6,6 @@ import org.bukkit.enchantments.Enchantment;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
-import org.bukkit.event.enchantment.EnchantItemEvent;
 import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.inventory.AnvilInventory;
 import org.bukkit.inventory.ItemStack;
@@ -18,12 +17,6 @@ public class EnchantEvents implements Listener {
 
     public EnchantEvents(Plugin plugin) {
         this.plugin = plugin;
-    }
-
-    @EventHandler
-    public void onTableEnchant(EnchantItemEvent event) {
-        System.out.println(event.getEnchantsToAdd());
-        System.out.println(event.getItem());
     }
 
     @EventHandler
