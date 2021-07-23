@@ -1,0 +1,7 @@
+# Если permission_based: true, то игроки с permission tarucaenchants.elytra смогут зачаровывать элитры на починку
+permission_based: false
+enabled_msg: '&#1dde5dПлагин был успешно запущен'
+disabled_msg: '&#d92323Плагин отключён'
+no_permissions: '&#d92323У вас недостаточно прав для выполнения данной команды'
+config_reloaded: '&#1dde5dКонфиг был успешно перезагружен!'
+elytra_forbidden: '&#d92323Запрещено зачаровывать элитры на починку!'

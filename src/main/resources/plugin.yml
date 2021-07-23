@@ -1,0 +1,8 @@
+name: TarucaEnchantmentBan
+main: com.katanamajesty.Main
+version: ${version}
+api-version: 1.17
+author: KatanaMajesty
+commands:
+  tarucaenchants:
+    description: Plugin-related cmd
